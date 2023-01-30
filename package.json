@@ -5,6 +5,12 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "vercel-sapper"
+    }
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
