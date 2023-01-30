@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71a48dff-4d1f-456d-be0f-62a9a7338250" name="Changes" comment="">
+    <list default="true" id="71a48dff-4d1f-456d-be0f-62a9a7338250" name="Changes" comment="fix: delete bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +63,16 @@
       <workItem from="1675089323917" duration="206000" />
       <workItem from="1675089843737" duration="2014000" />
       <workItem from="1675095239792" duration="3920000" />
-      <workItem from="1675104741967" duration="1384000" />
+      <workItem from="1675104741967" duration="3755000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: delete bug">
+      <created>1675107172865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675107172865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: delete bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: delete bug" />
   </component>
 </project>

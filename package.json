@@ -1,7 +1,6 @@
 {
   "name": "back-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -17,5 +16,15 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.4",
     "nodemon": "^2.0.20"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jenyajk/React-manager-back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jenyajk/React-manager-back/issues"
+  },
+  "homepage": "https://github.com/Jenyajk/React-manager-back#readme",
+  "description": ""
 }
