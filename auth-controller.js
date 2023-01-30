@@ -29,7 +29,7 @@ class  authController {
 
             let hashPassword = bcrypt.hashSync(password, 6);
             const userRole = await  Role.findOne({value: 'User'})
-            const user = new User({username, password: hashPassword,email, roles: [userRole.value], _id:id})
+            const user = new User({username, password: hashPassword,email, roles: [userRole.value]})
             await user.save()
             return res.json({message:'Пользолватель успешно сохранен '})
         } catch (e){
@@ -49,7 +49,7 @@ class  authController {
             if (!validPassword) {
                 return res.status(400).json({message: 'Введен неверный пароль' })
             }
-            const token = generateAccessToken(user._id, user.roles)
+            const token = generateAccessToken(user.id, user.roles)
             return res.json(token)
 
         } catch (e){
